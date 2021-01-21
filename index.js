@@ -22,7 +22,7 @@ const questions = [
     {
         type: 'input',
         name: 'usage',
-        message: 'What is the description of the project?'
+        message: 'Provide instructions and examples for use if applicable.'
     },
     {
         type: 'list',
@@ -34,17 +34,32 @@ const questions = [
     {
         type: 'input',
         name: 'contributing',
-        message: 'What is the description of the project?'
+        message: 'Provide message for contributing guidelines'
     },
     {
         type: 'input',
         name: 'tests',
-        message: 'What is the description of the project?'
+        message: 'Provide tests for application and instructions on how to run them.'
     },
     {
         type: 'input',
-        name: 'questions',
-        message: 'What is the description of the project?'
+        name: 'username',
+        message: 'What is your Github username?'
+    },
+    {
+        type: 'input',
+        name: 'link',
+        message: 'What is the link to your Github page?'
+    },
+    {
+        type: 'input',
+        name: 'info',
+        message: 'Provide information on how to reach you for questions.'
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'What is your email address?'
     },
 ];
 

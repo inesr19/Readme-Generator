@@ -50,17 +50,26 @@ ${data.description}
 * [Questions](#Questions)
 
 ## Installation
+${data.installation}
 
 ## Usage
+${data.usage}
 
 ## License
 ${renderLicenseSection(data.license)}
 
 ## Contrubuting
+${data.contributing}
+* [Contributor Covenant](https://www.contributor-covenant.org/)
 
 ## Tests
+${data.tests}
 
 ## Questions
+* [${data.username}] (${data.link})
+* ${data.info}
+* ${data.email}
+
 `;
 }
 
