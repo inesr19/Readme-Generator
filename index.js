@@ -7,12 +7,12 @@ const questions = [
     {
         type: 'input',
         name: 'title',
-        message: 'What is the title of the project?'
+        message: 'What is the title of your project?'
     },
     {
         type: 'input',
         name: 'description',
-        message: 'What is the description of the project?'
+        message: 'What is the description of your project?'
     },
     {
         type: 'input',
@@ -34,12 +34,12 @@ const questions = [
     {
         type: 'input',
         name: 'contributing',
-        message: 'Provide message for contributing guidelines'
+        message: 'Provide a message for contributing guidelines'
     },
     {
         type: 'input',
         name: 'tests',
-        message: 'Provide tests for application and instructions on how to run them.'
+        message: 'Provide tests for the application and instructions on how to run them.'
     },
     {
         type: 'input',
