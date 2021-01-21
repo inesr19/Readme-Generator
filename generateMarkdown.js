@@ -37,6 +37,7 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+  ${renderLicenseBadge(data.license)}
 
 ## Description
 ${data.description}
@@ -56,18 +57,20 @@ ${data.installation}
 ${data.usage}
 
 ## License
-${renderLicenseSection(data.license)}
+Click on the link below to read the terms and conditions of the selected license:
+* ${renderLicenseSection(data.license)}
 
-## Contrubuting
-${data.contributing}
+## Contributing
+${data.contributing}:
 * [Contributor Covenant](https://www.contributor-covenant.org/)
 
 ## Tests
 ${data.tests}
 
 ## Questions
-* [${data.username}] (${data.link})
-* ${data.info}
+* [${data.username}](${data.link})
+
+${data.info}:
 * ${data.email}
 
 `;
