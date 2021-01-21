@@ -7,18 +7,44 @@ const questions = [
     {
         type: 'input',
         name: 'title',
-        message: 'What is your title?'
+        message: 'What is the title of the project?'
     },
     {
         type: 'input',
         name: 'description',
-        message: 'What is the description?'
+        message: 'What is the description of the project?'
+    },
+    {
+        type: 'input',
+        name: 'installation',
+        message: 'What are the steps required to install your project?'
+    },
+    {
+        type: 'input',
+        name: 'usage',
+        message: 'What is the description of the project?'
     },
     {
         type: 'list',
         name: 'license',
         message: 'what license would you like to select?',
-        choices: ['MIT', 'Apache', 'Mozilla']
+        choices: ['MIT', 'Apache', 'Mozilla'],
+        default: ''
+    }, 
+    {
+        type: 'input',
+        name: 'contributing',
+        message: 'What is the description of the project?'
+    },
+    {
+        type: 'input',
+        name: 'tests',
+        message: 'What is the description of the project?'
+    },
+    {
+        type: 'input',
+        name: 'questions',
+        message: 'What is the description of the project?'
     },
 ];
 
