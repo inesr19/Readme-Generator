@@ -17,4 +17,5 @@ This application was developed for the purpose of generating a concise Readme us
 9. Added readme sections with appropriate formatting to the generateMarkdown() function.
 
 
-## Link
+## Walkthrough Video
+<iframe src="https://drive.google.com/file/d/1FefADWQYbaWS7VvBDAEeMzd4nXh87UGq/preview" width="640" height="480"></iframe>
